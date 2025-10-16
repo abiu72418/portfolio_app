@@ -1,0 +1,27 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.dark-theme {
+    --background-color: black;
+    --text-color: white;
+}
